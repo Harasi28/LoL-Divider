@@ -87,7 +87,7 @@ rank_choice.pack()
 # ロール選択
 tk.Label(app, text="ロール").pack()
 role_var = tk.StringVar()
-role_choice = ttk.Combobox(app, textvariable=role_var, values=['top', 'jg', 'mid', 'adc', 'sup'])
+role_choice = ttk.Combobox(app, textvariable=role_var, values=['top', 'jg', 'mid', 'adc', 'sup', 'どこオプ'])
 role_choice.pack()
 
 # プレイヤー追加ボタン
